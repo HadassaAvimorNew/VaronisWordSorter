@@ -24,17 +24,6 @@ This modular and extensible design allows for future support of additional file 
 
 ---
 
-## Unit Tests
-
-Unit tests are written using **JUnit 5** and **Mockito** to ensure the functionality of key components:
-
-- **FileAnalyzerTest**: This test suite mocks the file handling operations and tests the sorting (both ascending and descending) as well as checking that the output file is written correctly.
-  
-- **Mocking**: The tests mock the `FileHandler` to isolate the logic of the `FileAnalyzer` from the actual file system operations.
-  
-- **Edge Cases**: The tests cover cases such as duplicate word handling and ensuring that the most frequent word is identified correctly.
-
----
 
 ## Running the Project
 
